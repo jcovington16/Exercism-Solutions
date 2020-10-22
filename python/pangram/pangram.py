@@ -1,2 +1,4 @@
 def is_pangram(sentence):
-    alphabet = 
+    alphabet = set('abcdefghijklmnopqrstuvwxyz')
+    sentence = set(sentence.lower())
+    return alphabet.issubset(sentence)
