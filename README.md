@@ -8,5 +8,4 @@
 - You have the ability to have your code looked at and critiqued by
   real developers with real world experience. 
   
-# This repo will contain all of the solutions I completed in the languages I 
-# that I am passionate about. 
+# This repo will contain all of the solutions I completed in the languages that I am passionate about. 
