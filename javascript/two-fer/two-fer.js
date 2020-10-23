@@ -3,6 +3,9 @@
 // convenience to get you started writing code faster.
 //
 
-export const twoFer = () => {
-  throw new Error("Remove this statement and implement this function");
+export const twoFer = (x) => {
+  if(!x) {
+    return 'One for you, one for me.';
+  }
+  return `One for ${x}, one for me.`;
 };
