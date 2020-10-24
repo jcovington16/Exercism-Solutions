@@ -3,9 +3,6 @@
 // convenience to get you started writing code faster.
 //
 
-export const twoFer = (x) => {
-  if(!x) {
-    return 'One for you, one for me.';
-  }
-  return `One for ${x}, one for me.`;
+export const twoFer = (x='you') => {
+  return `One for ${x}, one for me.`
 };
